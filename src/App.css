@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@import './CSS/resets.css';
+
+html {
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar active link styling */
+.active {
+  text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'Quicksand';
+  src: url(./fonts/Quicksand-VariableFont_wght.ttf);
+  font-style: normal;
 }
-
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'OpenSans';
+  src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-style: normal;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'OpenSansItalic';
+  src: url(./fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: 'OoooBaby';
+  src: url(./fonts/OoohBaby-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: Rossetti;
+  src: url(./fonts/Rossetti\ W00\ Regular.ttf);
 }
